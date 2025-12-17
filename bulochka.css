@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+body{
+font-family: "Arbutus Slab", serif;
+}
+.main_menu{
+    background-color: #363645;
+    border-radius: 20px;
+}
+.menu{
+     position: fixed; 
+    top: 0;          
+    width: 100%;     
+    z-index: 1000; 
+    padding: 13px 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #363645;
+    border-radius: 30px;
+  
+}
+.menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.image{
+    padding-top: 40px;
+    text-align: center;
+}
+.btn{
+    padding: 0 25px;
+    background-color: #feb34c;
+    box-shadow:  0px 3px 6px rgba(110, 116, 134, 0.24);
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;          
+}
+.btn:hover{
+    background-color: rgb(195, 141, 3);
+}
+.menu a:hover{
+    text-decoration: underline;
+    color:  #feb34c;
+    transition: 0.3s;
+}
+.assorty{
+    margin-left: 100px;
+    display: flex;
+    gap: 10px;
+}
+.assorty_h1{
+    color: #363645;
+}
+.first{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vybor{
+    display: flex;
+    gap: 25px;
+    list-style-type:none;  
+}
+.vybor a{
+color:  #363645; 
+ text-decoration: none; 
+ font-size: 18px;
+}
+.vybor a:hover{
+    color: #feb34c;
+    transition: 0.3s;
+}
+.grid{
+      display:grid;
+      justify-content: center;
+    gap:35px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.box_h2{
+    color:  #363645; 
+}
+.grid_img{
+    border-radius: 30px;
+}
+.grid_img:hover{
+    box-shadow: 1px 1px 30px  #feb34c;
+}
+.second{
+    margin-top: 60px;
+    background-color: #363645; 
+    text-align: center;
+    border-radius: 28px;
+}
+.franchising{
+    margin-top: 70px;
+    display: inline-block;
+    background: #fcb24c;
+    color: #363645;
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.franchising:hover{
+    box-shadow: 1px 1px 30px  #feb34c;
+}
+.second_h1{
+    color: #fcb24c;
+    font-size: 58px;
+}
+.second_p{
+    font-weight: 400;
+    color: #fcb24c;
+    font-size: 20px;
+}
+.second_btn{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 40px;
+    background:  #feb34c ;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.second_btn:hover{
+    background-color: #f89811;
+}
+.top-line{
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-top: 50px;
+    text-align: left;
+    width: 550px;
+    height: 600px;
+    overflow: auto;
+    text-align: center;
+}
+.title{
+     color: #363645;
+    font-size: 38px;
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.form{
+    margin-top: 50px;
+}
+.vybor{
+    border: none;
+    color: #363645;
+    font-size: 24px;
+    font-weight: bold;
+}
+.store{
+    width: 290px;
+    border-radius: 30px;
+}
+.store:hover{
+      box-shadow: 1px 1px 30px  #feb34c;
+}
+.txt{
+    color: #363645;
+    font-size: 18px;
+    font-weight: 800;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #363645;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.footer_h1{;
+    color: #f89811;
+    text-shadow: 1px 1px 30px  #feb34c;
+}
+.footer_img:hover{
+     box-shadow: 1px 1px 30px  #feb34c;
+}
+.btn_footer{
+    margin-top: 18px;
+    background-color: #363645;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+}
